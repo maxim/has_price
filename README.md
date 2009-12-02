@@ -8,8 +8,20 @@ Install
 
 Make sure [gemcutter.org](http://gemcutter.org) is in your sources.
 
+<pre>
   sudo gem install has_price
+</pre>
+  
+In rails environment:
+<pre>
+  config.gem "has_price"
+</pre>
 
+For any generic Ruby class:
+<pre>
+  require 'has_price'
+  include HasPrice::HasPrice
+</pre>
 
 Organize
 --------
