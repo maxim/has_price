@@ -11,7 +11,7 @@ Make sure [gemcutter.org](http://gemcutter.org) is in your sources.
 <pre>
   sudo gem install has_price
 </pre>
-  
+
 In rails environment:
 <pre>
   config.gem "has_price"
@@ -22,6 +22,8 @@ For any generic Ruby class:
   require 'has_price'
   include HasPrice::HasPrice
 </pre>
+
+P.S. Usage as Rails plugin is supported too, but gem is preferred.
 
 Organize
 --------
