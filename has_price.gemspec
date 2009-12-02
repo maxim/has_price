@@ -13,13 +13,16 @@ Gem::Specification.new do |s|
   s.description = %q{A convenient DSL for defining complex price reader/serializer in a class and organizing a price breakdown. Price can be declared with items and groups which depend on other attributes. Price is a very simple subclass of Hash. This provides for easy serialization and flexibility in case of implementation changes. This way you can conveniently store the whole price breakdown in your serialized receipts. It also provides magic methods for convenient access, but can be fully treated as a regular Hash with some sprinkles on top.}
   s.email = %q{max@bitsonnet.com}
   s.extra_rdoc_files = [
-    "README.md"
+    "LICENSE",
+     "README.md"
   ]
   s.files = [
     ".gitignore",
+     "LICENSE",
      "README.md",
      "Rakefile",
      "VERSION",
+     "has_price.gemspec",
      "lib/has_price.rb",
      "lib/has_price/core_extensions/array.rb",
      "lib/has_price/core_extensions/string.rb",

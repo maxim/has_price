@@ -67,9 +67,9 @@ What we've done just now is — built instance method `price` on products. Now y
   product.price.total         # => 500
   product.price.base          # => 400
   product.price.taxes         # => Price object
-  product.price.taxes.federal # => 100
-  product.price.taxes.total   # => 200
-  product.discounts.total     # => -100
+  product.price.taxes.federal # => 50
+  product.price.taxes.total   # => 100
+  product.discounts.total     # => -50
 </pre>
 
 Serialize
