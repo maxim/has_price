@@ -14,7 +14,7 @@ class TestHasPrice < Test::Unit::TestCase
       end
       
       should "gain #price method" do
-        assert Product.instance_methods.include? "price"
+        assert ["price", :price].any?{|meth| Product.instance_methods.include?(meth)}
       end
       
       should "return empty Price object" do
@@ -36,7 +36,7 @@ class TestHasPrice < Test::Unit::TestCase
       end
       
       should "gain #price method" do
-        assert Product.instance_methods.include? "price"
+        assert ["price", :price].any?{|meth| Product.instance_methods.include?(meth)}
       end
       
       should "return price object" do
@@ -74,7 +74,7 @@ class TestHasPrice < Test::Unit::TestCase
       end
       
       should "gain #total_price method" do
-        assert Product.instance_methods.include? "total_price"
+        assert ["total_price", :total_price].any?{|meth| Product.instance_methods.include?(meth)}
       end
     end
   end
