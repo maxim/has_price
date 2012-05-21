@@ -19,3 +19,4 @@ rdoc
 doc
 pkg
 .yardoc
+*.gem

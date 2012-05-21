@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{has_price}
-  s.version = "1.1.1"
+  s.version = "1.2.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Maxim Chernyak"]
-  s.date = %q{2012-05-21}
+  s.date = %q{2012-05-22}
   s.description = %q{A convenient DSL for defining complex price reader/serializer in a class and organizing a price breakdown. Price can be declared with items and groups which depend on other attributes. Price is a very simple subclass of Hash. This provides for easy serialization and flexibility in case of implementation changes. This way you can conveniently store the whole price breakdown in your serialized receipts. It also provides magic methods for convenient access, but can be fully treated as a regular Hash with some sprinkles on top.}
   s.email = %q{max@bitsonnet.com}
   s.extra_rdoc_files = [
